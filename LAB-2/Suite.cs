@@ -10,9 +10,10 @@ namespace LAB_2
     {
         public int ExtraRooms { get; set; }
 
-        public Suite(int roomNumber, string nightPrice, bool available, string assignedClient, int beds, bool seaView, int extraRooms): base(roomNumber, nightPrice, available, assignedClient, beds, seaView)
+        public Suite(int roomNumber,string type, double nightPrice, bool available, string assignedClient, int beds, bool seaView, int extraRooms): base(roomNumber,type, nightPrice, available, assignedClient, beds, seaView)
         {
             RoomNumber = roomNumber;
+            Type = type;
             NightPrice = nightPrice;
             Available = available;
             AssignedClient = assignedClient;
