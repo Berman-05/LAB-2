@@ -12,11 +12,6 @@ namespace LAB_2
 
         public BasicRoom(int roomNumber, string type, double nightPrice, bool available, string assignedClient ,int beds) :base(roomNumber,type, nightPrice, available,assignedClient)
         {
-            RoomNumber = roomNumber;
-            Type = type;
-            NightPrice = nightPrice;
-            Available = available;
-            AssignedClient = assignedClient;
             Beds = beds;
         }
     }
