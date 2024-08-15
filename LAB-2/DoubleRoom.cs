@@ -12,12 +12,6 @@ namespace LAB_2
 
         public DoubleRoom(int roomNumber,string type, double nightPrice, bool available, string assignedClient, int beds, bool seaView): base(roomNumber,type, nightPrice, available, assignedClient,beds)
         {
-            RoomNumber = roomNumber;
-            Type = type;
-            NightPrice = nightPrice;
-            Available = available;
-            AssignedClient = assignedClient;
-            Beds = beds;
             SeaView = seaView;
         }
 
